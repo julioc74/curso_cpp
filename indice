@@ -4,6 +4,7 @@ syllabus-cpp/
 │
 ├── basico/
 │   ├── introduccion.md
+|   ├── tipos_de_datos.md
 │   ├── variables.md
 │   ├── operadores.md
 │   ├── entrada_salida.md
