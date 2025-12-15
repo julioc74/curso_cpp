@@ -51,15 +51,15 @@
 
 |  operador    |                     función                                   |
 |--------------|---------------------------------------------------------------|
-|     x++      |   primero incrementa y luego devuelve el valor incrementado   |
-|     x--      |   primero decrementa y luego devuelve el valor decrementado   |
+|     ++x      |   primero incrementa y luego devuelve el valor incrementado   |
+|     --x      |   primero decrementa y luego devuelve el valor decrementado   |
 
 ### 4.2 Operadores de post incremento/decremento
 
 |  operador    |              función                                     |
 |--------------|----------------------------------------------------------|
-|     ++x      |   primero devuelve el valor inicial y luego incrementa   |
-|     --x      |   primero devuelve el valor inicial y luego decrementa   |
+|     x++      |   primero devuelve el valor inicial y luego incrementa   |
+|     x--      |   primero devuelve el valor inicial y luego decrementa   |
 
 
 
