@@ -1,7 +1,9 @@
 # ETAPAS DE LA COMPILACIÓN EN C/C++
 
+
 ## 1._ Preprocesador
 Procesa directivas como #include, #define, elimina comentarios, etc.
+
 ***Archivo generado***
 .i → C preprocesado
 .ii → C++ preprocesado
@@ -11,6 +13,7 @@ No se genera por defecto
 ***Cómo generarlo?*** 
 en el bash
 g++ -E hola.cpp > hola.i
+
 
 
 ## 2._ Compilación
@@ -42,6 +45,7 @@ en el bash
 g++ -c hola.cpp
 
 
+
 ## 4._ Enlazado
 Funciones de C/C++ como printf(), cout, etc se encuentran ya compiladas y
 ensambladas en bibliotecas existentes en el sistema. Es preciso incorporar
@@ -58,6 +62,8 @@ ejecutable ELF / PE / Mach-O
 ***Cómo generarlo?***  
 en el bash
 g++ hola.o -o hola
+
+
 
 ## Nota
 Headers (caso especial)
@@ -81,7 +87,7 @@ el linker no entiende C++, solo símbolos
 Suponiendo que el nombre del archivo se llama 'hola'
 
 |     etapa      |        que pasa        |   archivo generado   |          como generarlo           |
---------------------------------------------------------------------------------------------------
+|----------------|------------------------|----------------------|-----------------------------------|
 |     Fuente     |     código humano      |   .cpp    .c         |                                   |
 |  Preprocesado  |  procesa directivas    |   .i     .ii         |    g++ -E hola.cpp > hola.i       |
 |  Compilación   |  traduce a assembler   |       .s             |    g++ -S hola.cpp                | 
