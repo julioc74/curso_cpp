@@ -1,0 +1,39 @@
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+
+int main(){
+
+    int siete = 7;
+    cout << "LA TABLA DEL 7 ES" << endl;
+    cout << "-----------------" << endl;
+ 
+    for(int n=0; n<=12; n++){
+           
+        printf("%d x %d = %d\n", siete, n, siete * n);
+    }
+
+    cout << "-----------------" << endl;
+    return 0;
+}
+
+/*  salida:
+LA TABLA DEL 7 ES
+-----------------
+7 x 0 = 0
+7 x 1 = 7
+7 x 2 = 14
+7 x 3 = 21
+7 x 4 = 28
+7 x 5 = 35
+7 x 6 = 42
+7 x 7 = 49
+7 x 8 = 56
+7 x 9 = 63
+7 x 10 = 70
+7 x 11 = 77
+7 x 12 = 84
+-----------------
+
+*/
